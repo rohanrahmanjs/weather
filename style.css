@@ -104,6 +104,27 @@ body {
   display: none;
   margin-left: 10px;
 }
+.heading {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.heading h2 {
+  position: relative;
+}
+.heading h2::after {
+  content: "";
+  width: 20%;
+  height: 2px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -4px;
+  background: #00feba;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media only screen and (max-width: 460px) {
   .search button {
@@ -133,26 +154,4 @@ body {
     font-size: 30px;
     margin-top: 0px;
   }
-}
-
-.heading {
-  text-align: center;
-  margin-top: 10px;
-  color: white;
-}
-.heading h2 {
-  position: relative;
-}
-.heading h2::after {
-  content: "";
-  width: 20%;
-  height: 2px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin-bottom: -4px;
-  background: #00feba;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
 }
