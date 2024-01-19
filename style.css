@@ -14,7 +14,7 @@ body {
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
-  margin: 50px auto 0;
+  margin: 20px auto 0;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
@@ -133,4 +133,26 @@ body {
     font-size: 30px;
     margin-top: 0px;
   }
+}
+
+.heading {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.heading h2 {
+  position: relative;
+}
+.heading h2::after {
+  content: "";
+  width: 20%;
+  height: 2px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -4px;
+  background: #00feba;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
 }
